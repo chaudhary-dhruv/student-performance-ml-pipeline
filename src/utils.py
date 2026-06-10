@@ -1,10 +1,10 @@
 import os
 import sys
-import dill
+import dill                                                         # type: ignore
 import pickle
 
-import numpy as np
-import pandas as pd
+import numpy as np                                                  # type: ignore
+import pandas as pd                                                 # type: ignore
 from src.exception import CustomException
 
 def save_object(file_path , obj):
