@@ -113,7 +113,9 @@ class ModelTrainer:
 
             r2_scored = r2_score(y_test , predicted)
 
-            return r2_scored
+            result = round(r2_scored , 2)
+
+            return result
 
 
         except Exception as e:
